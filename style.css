@@ -137,7 +137,7 @@ body {
 
 /* my current target section styles  */
 
-.target-section{
+.target-section {
     margin-top: 100px;
     display: grid;
     gap: 80px;
@@ -166,7 +166,7 @@ body {
 }
 
 /* next target card */
-.next-target-card{
+.next-target-card {
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -180,3 +180,85 @@ body {
     font-weight: 700;
 }
 
+/* handshake section styles */
+
+.handshake-section {
+    background-image: url('./assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 64px 0px;
+    color: white;
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+
+.handshake-description {
+    z-index: 2;
+    display: grid;
+    margin: auto;
+}
+
+.handshake-section h2 {
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+}
+
+.handshake-section input {
+    background-color: white;
+    padding: 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.overlay {
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.submit{
+    width: 100%;
+}
+
+.submit-btn{
+    padding: 15px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 32px 100px; */
+    padding: 32px 200px;
+    background-color: rgba(13, 19, 33, 0.03);
+    width: 78.8vw;
+    margin-left: -160px;
+    margin-top: 100px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
